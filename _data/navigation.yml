@@ -59,17 +59,17 @@
   - title: "Roadmap"
     url: "/roadmap/"
 
-- title: Blog
+- title: Blogo
   url: "/blog/"
   side: left
   dropdown:
-  - title: "Blog Archive"
+  - title: "Bloga Arkivo"
     url: "/blog/archive/"
 
-- title: "Search"
+- title: "Serĉo"
   url: "/search/"
   side: right
 
-- title: "Contact"
+- title: "Kontakto"
   url: "/contact/"
   side: right
