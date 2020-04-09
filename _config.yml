@@ -26,7 +26,7 @@ author: Ron_Wolf
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 url: 'https://lawolf2.github.io'
-baseurl: '/'
+baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
@@ -111,7 +111,7 @@ defaults:
       type: 'pages'
     values:
       show_meta: false 	# Hide metadata for all pages
-      # sidebar:    		# Possible values › left, right › by default there will be no sidebar
+      sidebar: 'left'   		# Possible values › left, right › by default there will be no sidebar
       comments: false
       author: Ron_Wolf     # Default author for pages
   -
@@ -120,7 +120,7 @@ defaults:
       type: 'posts'
     values:
       show_meta: true   # Show metadata for all posts
-      # sidebar:        # Possible values › left, right › by default there will be no sidebar
+      sidebar: 'left'       # Possible values › left, right › by default there will be no sidebar
       comments: false
       author: Ron_Wolf     # Default author for posts
 
